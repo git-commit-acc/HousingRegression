@@ -1,4 +1,4 @@
-name: Hyper Branch Process
+name: MLOps CI Pipeline
 
 on:
   push:
