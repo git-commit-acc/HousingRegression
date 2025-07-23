@@ -2,9 +2,9 @@ name: MLOps CI Pipeline
 
 on:
   push:
-    branches: [main, reg_branch, hyper_branch]
+    branches: [reg_branch]
   pull_request:
-    branches: [main]
+    branches: [reg_branch]
 
 jobs:
   build:
